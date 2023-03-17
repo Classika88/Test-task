@@ -7,15 +7,15 @@ This project was created with
 
 This application was created to follow the news of users in social networks. To do this, press the button `FOLLOW`.
 
-<p align="center">![FOLLOW](./assets/app.png)</p>
+![FOLLOW](./assets/app.png)
 
  Its appearance will change and show that you are subscribed to the user.
 
-<p align="center">![FOLLOWING](./assets/following.png)</p>
+![FOLLOWING](./assets/following.png)
 
 If you change your mind, you can click the button `FOLLOWING` again and the subscription will be canceled. The button `FOLLOWING` will change its color and the inscription on `FOLLOW`. 
 
-<p align="center">![FOLLOW](./assets/app.png)</p>
+![FOLLOW](./assets/app.png)
 
 The application remembers your choice even after loading the page.
 
