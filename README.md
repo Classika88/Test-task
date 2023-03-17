@@ -1,44 +1,30 @@
-# React homework template
+# FOLLOW CARD
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was created with
+[Create React App](https://github.com/facebook/create-react-app). To familiarize yourself with and configure additional features [refer to the documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Создание репозитория по шаблону
+## About
 
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
+This application was created to follow the news of users in social networks. To do this, press the button `FOLLOW`.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+![FOLLOW](./assets/app.png)
 
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
+ Its appearance will change and show that you are subscribed to the user.
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+![FOLLOWING](./assets/following.png)
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
+If you change your mind, you can click the button `FOLLOWING` again and the subscription will be canceled. The button `FOLLOWING` will change its color and the inscription on `FOLLOW`. 
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+![FOLLOW](./assets/app.png)
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
+The application remembers your choice even after loading the page.
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+## DEMO
 
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
+You can test the application using the [link](https://classika88.github.io/test-task/). 
+I wish you a pleasant use!
 
-## Подготовка к работе
-
-1. Убедись что на компьютере установлена LTS-версия Node.js.
+ Убедись что на компьютере установлена LTS-версия Node.js.
    [Скачай и установи](https://nodejs.org/en/) её если необходимо.
 2. Установи базовые зависимости проекта командой `npm install`.
 3. Запусти режим разработки, выполнив команду `npm start`.
@@ -111,4 +97,3 @@ GitHub.
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
-   
